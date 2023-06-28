@@ -1,0 +1,12 @@
+pre_month = 0 # set starting value
+for i in Monthly_Change:                         # read monthly change for greatest and smallest values
+     if i > pre_month:
+          Greatest_month = i
+     if int(pre_month) < int(i):
+          Lowest_month = i
+     pre_month = i
+
+
+     
+with open("Finacial_Analysis.txt", "w") as file:
+    file.write("Your text goes here")

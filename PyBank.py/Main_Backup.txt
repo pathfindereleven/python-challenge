@@ -58,7 +58,4 @@ with open("Finacial_Analysis.txt", "w") as file:
     print("Average Change:   " + '$' + str(Average_change),file=file)  
     print("Greatest Increase In Profits:   " + str(Gmonth) + '   $' + str(Greatest_Month), file=file)   
     print("Greatest Decrease In Profits:   " + str(Lmonth) + '   $' + str(Lowest_Month), file=file) 
-   
-
-
-                
+print(sum(Monthly_Change))
