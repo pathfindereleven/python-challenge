@@ -44,7 +44,7 @@ print(str(canidate1) + ":  " + str(percent1) + "%  " + "(" + str(total1) + ")")
 print(str(canidate2) + ":  " + str(percent2) + "%  " + "(" + str(total2) + ")" + "\n" + "------------------------------------------------------------")
 print("Winner:  " + str(winner) + "\n" + "---------------------------------")
 
-with open("Analysis_Poll\Election_Results.txt", "w") as file:     #print to txt documant in analysis folder
+with open("Analysis_Poll\Finacial_Election_Results.txt", "w") as file:     #print to txt documant in analysis folder
      print("Election Results" "\n" "-----------------------------------------", file=file)             
      print("Total Votes   " + str(total_votes) + "\n" "-----------------------------------------", file=file)
      print(str(canidate0) + ":  " + str(percent0) + "%  " + "(" + str(total0) + ")", file=file)

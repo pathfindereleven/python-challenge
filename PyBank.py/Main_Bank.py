@@ -30,7 +30,7 @@ Average_change = sum(Monthly_Change) / len(Monthly_Change)
 
 
 
-Lowest_Month = min(Monthly_Change, key=float)  # find the greatest decrease in profits
+Lowest_Month = min(Monthly_Change, key=float)  # find the greatest decrease in pro
 Greatest_Month = max(Monthly_Change, key=float) # find greatest increase in profit
 
 for i in [ i for i,x in enumerate(Monthly_Change) if x == Greatest_Month]: # find greatest increase  month index value in monthly change[]
@@ -51,7 +51,7 @@ print("Greatest Increase In Profits:   " + str(Gmonth) + '   $' + str(Greatest_M
 print("Greatest Decrease In Profits:   " + str(Lmonth) + '   $' + str(Lowest_Month)) 
                                 
                                                                             # create and print to file called "Finacial analysis"
-with open("Finacial_Analysis.txt", "w") as file:
+with open("Analysis_Bank\Finacial_Analysis.txt", "w") as file:
     print("Finacial Analysis" "\n" "-----------------------------------------", file=file)
     print("Total Months:   " + str(total_months), file=file)
     print("Total: " + '$' + str(Total_Profits),file=file)

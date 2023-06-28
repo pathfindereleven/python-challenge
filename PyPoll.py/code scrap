@@ -1,0 +1,8 @@
+for i in poll_data:
+     if i[2] == Canidate_list[0]:
+          a
+     print(total_votes)
+print(Canidate_list)
+print(total0)
+print(winner)
+print(percent0)
